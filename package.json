@@ -1,0 +1,24 @@
+{
+  "name": "dlmm-alert-telegram",
+  "version": "1.0.0",
+  "description": "Monitor Meteora DLMM positions and get Telegram alerts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.31.0",
+    "@meteora-ag/dlmm": "^1.9.4",
+    "@solana/web3.js": "^1.91.6",
+    "dotenv": "^16.4.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "pino": "^8.19.0",
+    "pino-pretty": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/node-telegram-bot-api": "^0.64.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
