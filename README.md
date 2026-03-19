@@ -135,13 +135,3 @@ Time: 2026-03-20 14:30:00 UTC
 
 View on Solscan
 ```
-
-## Comparison with WhatsApp Version
-
-| | WhatsApp (`dlmm-alert`) | Telegram (`dlmm-alert-telegram`) |
-|---|---|---|
-| Setup | Scan QR code | Bot token + chat ID |
-| Notifications | No ringtone (same account) | Full push notifications |
-| Bot identity | Runs as your account | Separate bot with own username |
-| Dependencies | Puppeteer/Chromium (~300MB RAM) | Lightweight HTTP polling (~50MB RAM) |
-| Reliability | Session can expire | Stable, official Bot API |
