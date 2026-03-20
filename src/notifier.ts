@@ -122,7 +122,7 @@ export class TelegramNotifier {
       `*Wallet:* \`${walletDisplay}\``,
       `*Pair:* \`${shortPair}\``,
       `*Position:* \`${shortPosition}\``,
-      `*Instruction:* ${event.instructionName}`,
+      `*Instruction:* \`${event.instructionName}\``,
       `*Time:* ${time} UTC`,
       "",
       `[View on Solscan](https://solscan.io/tx/${event.signature})`,
